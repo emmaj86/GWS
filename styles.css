@@ -1,4 +1,6 @@
-
+body {
+  margin-bottom: 50px;
+}
   
 
 .nav_container {
@@ -11,6 +13,7 @@
 .navbar{
   
   background-color: #042d62;
+  
 }
 
 .navbar-nav.mr-auto.mt-2.mt-lg-0 li a {
@@ -23,6 +26,7 @@
 
 .company_info {
   background-color: #042d62;
+  
 }
 
 
@@ -30,14 +34,14 @@
   
   margin: 0 auto;
   width: auto;
-  height: 625px;
+  height: 100%;
   
 }
 
 .company_info img{
   margin: 0 auto;
   width: 100%;
-  height: auto;
+  height: fit-content;
 }
 
 /*************************************************************
