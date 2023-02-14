@@ -1,0 +1,116 @@
+
+  
+
+.nav_container {
+  
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+.navbar{
+  
+  background-color: #042d62;
+}
+
+.navbar-nav.mr-auto.mt-2.mt-lg-0 li a {
+  color: #def56c;
+}
+
+.navbar-brand {
+  color: #def56c;
+}
+
+.company_info {
+  background-color: #042d62;
+}
+
+
+.carousel-item img{
+  
+  margin: 0 auto;
+  width: auto;
+  height: 625px;
+  
+}
+
+.company_info img{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+/*************************************************************
+* Footer
+***********************************************************/
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #042d62;
+}
+
+footer p {
+  color: #def56c;
+}
+
+/*************************************************************
+* Social media icon styles
+*************************************************************/
+
+/* Style all font awesome icons */
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background-color: #042d62;
+  
+  color: #def56c;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: #def56c;
+}
+
+/* linkedin */
+.fa-linkedin {
+  color: #def56c;
+}
+
+/* Twitter */
+.fa-twitter {
+  background-color: #042d62;
+  
+  color: #def56c;
+}
+
+/*you tube */
+.fa-youtube {
+  color: #def56c;
+}
+
+/* email */
+.fa-envelope {
+  color: #def56c;
+}
+
+/* phone */
+.fa-phone {
+  color: #def56c;
+}
