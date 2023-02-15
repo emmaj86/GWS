@@ -30,13 +30,10 @@ body {
 }
 
 
-.carousel-item img{
-  
-  margin: 0 auto;
-  width: auto;
-  
+.w-100 {
+  width: 100% !important;
+  height: 75vh;
 }
-
 .company_info img{
   margin: 0 auto;
   width: 100%;
