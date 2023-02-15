@@ -33,9 +33,7 @@ body {
 .carousel-item img{
   
   margin: 0 auto;
-  background-size: 100% 100%;
-  min-height: 450px;
-  max-height: 450px;
+  width: auto;
   
 }
 
