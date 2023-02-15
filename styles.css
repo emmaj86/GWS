@@ -37,6 +37,7 @@ body {
 
 .company_info {
   background-color: #042d62;
+
   
 }
 
@@ -46,12 +47,13 @@ body {
 
 .w-100 {
   width: 100% !important;
-  height: 75vh;
+  height: 55vh;
 }
 .company_info img{
   margin: 0 auto;
+  margin-bottom: 50px;
   width: 100%;
-  height: fit-content;
+  height: 50vh;
 }
 
 /*************************************************************
@@ -133,10 +135,10 @@ footer p {
 * Grid - about us
 *************************/
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
+.item1 { grid-area: header; background-color: orange; text-decoration: black;}
+.item2 { grid-area: menu; background-color: #def56c;}
+.item3 { grid-area: main; background-color: orange;}
+.item4 { grid-area: right; background-color: orange;}
 
 
 .grid-container {
@@ -146,13 +148,17 @@ footer p {
     'menu menu menu menu menu menu'
     'main main main right right right';
   gap: 10px;
-  background-color: #eceff1;
+  background-color: #042d62;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+.grid-container header {
+  background-color: #042d62;
 }
