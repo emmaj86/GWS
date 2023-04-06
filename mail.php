@@ -7,7 +7,7 @@ $message= $_POST['message'];
 $number= $_POST['mobile'];
 $to = "emma.cody@hotmail.co.uk";
 $subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message ."\r\n Number =". $number;
 $headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
