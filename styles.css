@@ -1,9 +1,11 @@
 /***********************************************
 *Body
 ************************************************/
-
+html {
+  height: 100%;
+}
 body {
-  margin-bottom: 50px;
+  margin: 0;
 }
   
 /***********************************************
@@ -23,12 +25,35 @@ body {
   
 }
 
+.navbar-toggler {
+  color: #def56c;
+}
+
 .navbar-nav.mr-auto.mt-2.mt-lg-0 li a {
   color: #def56c;
 }
 
 .navbar-brand {
   color: #def56c;
+}
+
+.navbar-nav.mr-auto.mt-2.mt-lg-0 button {
+  color: #def56c;
+}
+
+
+/*********************************************
+* video section
+*******************************************/
+.video {
+  width: 100% !important;
+  height: 55vh;
+}
+.video iframe{
+  margin: 0 auto;
+  
+  width: 100%;
+  height: 50vh;
 }
 
 /***********************************************
@@ -56,6 +81,134 @@ body {
   height: 50vh;
 }
 
+.carousel-item {
+  transition-duration: 0s;
+  
+}
+
+/***********************************************************
+* find us section
+***********************************************************/
+.find_us {
+  
+  background-color: #042d62;
+  display: flex;
+  padding: 50px;
+}
+
+.address{
+  color: #def56c; 
+  padding: 50px;
+  
+}
+
+.address h2{
+  font-size: xx-large;
+  justify-content: center;
+ 
+}
+
+.address p {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: large;
+
+
+}
+
+.sqs-block-button-element--medium {
+  
+  border: solid 2px #def56c;
+  text-decoration: none;
+  padding: 10px;
+  color: #def56c;
+}
+
+.sqs-block-button-element--medium:hover {
+  background-color: #def56c;
+  color: #042d62;
+}
+/***********************************************************
+*about section
+***********************************************************/
+
+.about h2, p {
+  color: #def56c;
+
+}
+
+.about h2 {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.about p{
+  font-size: 35px;
+  margin: 20px;
+}
+
+.about button {
+  background-color: #042d62;
+ 
+  margin: 20px;
+  padding: 10px;
+}
+
+.about button a {
+  color: #def56c;
+  text-decoration: none;
+}
+
+
+
+.bg {
+  
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg,  #042d62 50%, #FF8C00 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+/***********************************************************
+*ABOUT US - video
+***********************************************************/
+
+.item2 {
+  width: 100% !important;
+  height: 55vh;
+}
+
+.item2 iframe{
+  margin: 0 auto;
+  
+  width: 100%;
+  height: 50vh;
+}
 /*************************************************************
 * Footer
 ***********************************************************/
