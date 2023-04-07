@@ -54,8 +54,15 @@ include_once 'submit.php';
     <p>Call us on <a href="tel:01560327444">01560327444</a> </p>
    
     <form action="https://formsubmit.co/emma.cody@hotmail.co.uk" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
+      <label for="name">Your name</label> 
+      <input type="text" name="name" required> 
+     <br>
+     <label for="email">Email address</label> 
+     <input type="email" name="email" required> <br>
+     <label for="phone">Phone number</label> 
+     <input type="phone" name="phone" required> <br>
+      <p><label for="message">Your message</label></p>
+      <textarea id="message" name="message" rows="4" cols="50" required> </textarea> <br>
      <button type="submit">Send</button>
 </form>
 
