@@ -1,12 +1,14 @@
 /***********************************************
 *Body
 ************************************************/
-html {
+html, body {
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
-  height: 100;
+  /* height: 100%;
+  width: 100%; */
   font-family: 'Cabin', sans-serif;
   
 }
@@ -20,7 +22,7 @@ body {
     
     position: absolute;
     margin: 20px;
-    width: auto;
+    width: 100%;
   }
   
 .navbar{
@@ -52,13 +54,13 @@ body {
 .video {
   
   width: 100% !important;
-  height: 55vh;
+  /* height: 55vh; */
 }
 .video iframe{
   margin: 0 auto;
-  
-  width: 100%;
-  height: 50vh;
+  width: fit-content;
+  max-width: 100%;
+  /* height: 50vh; */
 }
 
 /***********************************************
@@ -66,6 +68,7 @@ body {
 ************************************************/
 
 .company_info {
+  width: 100%;
   background-color: #042d62;
 
   
@@ -133,21 +136,7 @@ body {
 
 }
 
-.sqs-block-button-element--medium {
-  
-  border: solid 2px #def56c;
-  text-decoration: none;
-  padding: 10px;
-  color: #def56c;
-  
-  
-}
 
-
-.sqs-block-button-element--medium:hover {
-  background-color: #def56c;
-  color: #042d62;
-}
 /***********************************************************
 *about section
 ***********************************************************/
@@ -155,6 +144,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: bg, bg2, bg3;
+  width: fit-content;
+  max-width: 100%;
 }
 
 
@@ -296,7 +287,7 @@ body {
   to {
     background-position: 200% center;
   }
-}
+} 
 
 
 
@@ -334,6 +325,11 @@ body {
 /***********************************************************
 *CONTACT US 
 **********************************************************/
+.contact {
+  display: flex;
+  
+}
+
 .contact_item1 {
   margin-bottom: 50px;
 }
@@ -344,9 +340,25 @@ body {
 
 .contact_item1 p, a {
   color: black;
+  padding: 15px;
+}
+
+.sqs-block-button-element--medium {
+  display: flex;
+  border: solid 2px #def56c;
+  text-decoration: none;
+  padding: 10px;
+  color: #def56c;
+  
+  
+  
 }
 
 
+.sqs-block-button-element--medium:hover {
+  background-color: #def56c;
+  color: #042d62;
+}
 /*************************************************************
 * Footer
 ***********************************************************/
@@ -461,15 +473,3 @@ footer p {
 /*************************************************
 *media queries
 **********************************************/
-@media screen and (max-width : 480px) {
-.about {
-     width: 100%;
-  }
-  #clockdiv > div {
-     padding: 4px;      
-  }
-   .smalltext{
-     padding-top: 2px;
-     font-size: 12px;
-  }
-}
