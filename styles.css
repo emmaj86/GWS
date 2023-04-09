@@ -6,14 +6,17 @@ html {
 }
 body {
   margin: 0;
+  height: 100;
+  
 }
   
+
 /***********************************************
 *Navbar
 ************************************************/
 
 .nav_container {
-  
+    
     position: absolute;
     margin: 20px;
     width: auto;
@@ -46,6 +49,7 @@ body {
 * video section
 *******************************************/
 .video {
+  
   width: 100% !important;
   height: 55vh;
 }
@@ -133,9 +137,17 @@ body {
 /***********************************************************
 *about section
 ***********************************************************/
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: bg, bg2, bg3;
+}
 
+.about h3 {
+  text-align: center;
+}
 .about h2, p {
-  color: #def56c;
+  color: black;
 
 }
 
@@ -154,13 +166,44 @@ body {
  
   margin: 20px;
   padding: 10px;
+  max-width: 200px;
 }
 
 .about button a {
   color: #def56c;
   text-decoration: none;
+ 
 }
 
+/* animate text **/
+.animate-charcter
+{
+  
+  background-image: linear-gradient(
+    -225deg,
+    #042d62 0%,
+    #043d60 29%,
+    rgb(255, 123, 0) 67%,
+    #def56c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 
 
 .bg {
@@ -170,10 +213,15 @@ body {
   bottom:0;
   left:-50%;
   opacity:.5;
-  position:fixed;
+  position: fixed; 
+  height: 100%;
+  
+
   right:-50%;
-  top:0;
+  top: 0;
   z-index:-1;
+ 
+  
 }
 
 .bg2 {
@@ -196,6 +244,25 @@ body {
   }
 }
 
+/*****************************************************
+* services
+****************************************************/
+
+.services {
+  background-color: grey;
+  display: flex;
+}
+
+.services img {
+  padding: 10px;
+  justify-content: right;
+  height: 50px;
+  width: 50px;
+}
+
+.services h3 {
+  justify-content: center;
+}
 /***********************************************************
 *ABOUT US - video
 ***********************************************************/
@@ -338,3 +405,7 @@ footer p {
 .grid-container header {
   background-color: #042d62;
 }
+
+/*************************************************
+*media queries
+**********************************************/
