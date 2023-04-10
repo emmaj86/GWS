@@ -110,14 +110,15 @@ body {
 ***********************************************************/
 .find_us {
   
-  background-color: #042d62;
+  background-color: #043d60;
   display: flex;
-  
+ 
   padding: 50px;
+ 
 }
 
 .address{
-  color: #def56c; 
+  color: #FF8C00; 
   padding: 50px;
   
 }
@@ -132,10 +133,27 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: large;
-  color: #def56c; 
+  color: #FF8C00; 
 
 }
 
+.sqs-block-button-element--medium {
+  height: 50px;
+ 
+  border: solid 2px #FF8C00;
+  text-decoration: none;
+  padding: 10px;
+  color: #def56c;
+  
+  
+  
+}
+
+
+.sqs-block-button-element--medium:hover {
+  background-color: #def56c;
+  color: #042d62;
+}
 
 /***********************************************************
 *about section
@@ -143,7 +161,8 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  background-color: bg, bg2, bg3;
+  background-color: grey;
+  
   width: fit-content;
   max-width: 100%;
 }
@@ -166,21 +185,26 @@ body {
 }
 
 .about button {
-  background-color: #042d62;
- 
   margin: 20px;
   padding: 10px;
   max-width: 200px;
+  border: 2px solid #FF8C00;
+  background-color: grey;
 }
 
 .about button a {
-  color: #def56c;
+  font-weight: 600;
   text-decoration: none;
+  color: #FF8C00;
  
 }
 
+.about button a:hover {
+  color: #042d62;
+ 
+}
 
-.bg {
+/* .bg {
   
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg,  #042d62 50%, #FF8C00 50%);
@@ -216,7 +240,7 @@ body {
   100% {
     transform:translateX(25%);
   }
-}
+} */
 
 /*****************************************************
 * services
@@ -330,6 +354,7 @@ body {
   
 }
 
+
 .contact_item1 {
   margin-bottom: 50px;
 }
@@ -343,22 +368,7 @@ body {
   padding: 15px;
 }
 
-.sqs-block-button-element--medium {
-  display: flex;
-  border: solid 2px #def56c;
-  text-decoration: none;
-  padding: 10px;
-  color: #def56c;
-  
-  
-  
-}
 
-
-.sqs-block-button-element--medium:hover {
-  background-color: #def56c;
-  color: #042d62;
-}
 /*************************************************************
 * Footer
 ***********************************************************/
@@ -473,3 +483,8 @@ footer p {
 /*************************************************
 *media queries
 **********************************************/
+
+@media screen and (max-width:990px) {
+  .find_us {flex-wrap: wrap;}
+  
+}
