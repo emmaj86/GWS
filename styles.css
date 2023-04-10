@@ -486,5 +486,7 @@ footer p {
 
 @media screen and (max-width:990px) {
   .find_us {flex-wrap: wrap;}
+  .about p {font-size: 16px;}
+  .services p {font-size: 16px;}
   
 }
