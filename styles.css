@@ -357,6 +357,7 @@ body {
 
 
 .contact_item1 {
+ 
   display: flex;
 
   height: 100%;
@@ -368,12 +369,14 @@ body {
 }
 
 .contact_item1 h2 {
+ 
   padding-top: 20px;
   color: #FF8C00;
   text-align: center;
 }
 
 .contact_item1 p{
+   
   color: black;
   padding: 15px;
   font-weight: 600;
