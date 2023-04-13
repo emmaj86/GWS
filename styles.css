@@ -353,7 +353,8 @@ body {
 footer{
   
   position: fixed;
-  height: 75px;
+  height: auto;
+  max-height: 100px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -464,13 +465,13 @@ footer p {
 **********************************************/
 
 @media screen and (max-width:990px) {
-  .find_us {flex-wrap: wrap; }
+  
   .address h2{font-size: 16px;}
   .address h2{font-size: 16px;}
   .sqs-block-button-element--medium {height: 42px;}
   .about p {font-size: 16px;}
   .services p {font-size: 16px;}
-  .iframe-container{width: 300px; height: 300px;}
+  .map {height: 300px; width: 200px;}
   
   
 }
