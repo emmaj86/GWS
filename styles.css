@@ -488,7 +488,7 @@ footer p {
 *media queries
 **********************************************/
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:480px) {
   
   .address h2{font-size: 20px;}
   .address p{font-size: 16px;}
@@ -510,10 +510,10 @@ footer p {
  
   
   background-color: rgb(201, 201, 201);
-  height: 100vh;
+  height: 100%;
   width: 100%;
   flex-direction: column;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
   text-align: center;
   
 }
@@ -533,7 +533,7 @@ footer p {
   
 }
 
-.contact_form a {
+.contact {
   color: #FF8C00;
 }
 
@@ -549,6 +549,7 @@ form input, textarea {
 
 .send {
   border: 4px solid #042d62;
+  border-radius: 8px;
   color: #042d62;
   font-size: 24px;
   background-color: rgb(201, 201, 201);
