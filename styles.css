@@ -522,14 +522,14 @@ form input, textarea {
   
 }
 
-button {
+.send {
   border: 4px solid #042d62;
   color: #042d62;
   font-size: 24px;
   background-color: rgb(201, 201, 201);
 }
 
-button:hover {
+.send:hover {
   background-color: #042d62;
   color: #def56c;
 }
