@@ -1,14 +1,10 @@
 /***********************************************
 *Body
 ************************************************/
-html, body {
-  height: 100%;
-  overflow-x: hidden;
-}
+
 body {
-  margin: 0;
-  /* height: 100%;
-  width: 100%; */
+  
+  margin-bottom: 75px;
   font-family: 'Cabin', sans-serif;
   
 }
@@ -23,6 +19,7 @@ body {
     position: absolute;
     margin: 20px;
     width: 100%;
+    max-height: 100px;
   }
   
 .navbar{
@@ -110,15 +107,15 @@ body {
 ***********************************************************/
 .find_us {
   
-  background-color: #043d60;
+  background-color: #042d62;
   display: flex;
- 
+  
   padding: 50px;
  
 }
 
 .address{
-  color: #FF8C00; 
+  color:#def56c; 
   padding: 50px;
   
 }
@@ -133,14 +130,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: large;
-  color: #FF8C00; 
+  color: #def56c; 
 
 }
 
 .sqs-block-button-element--medium {
   height: 50px;
  
-  border: solid 2px #FF8C00;
+  border: solid 2px #def56c;
   text-decoration: none;
   padding: 10px;
   color: #def56c;
@@ -161,7 +158,7 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: rgb(201, 201, 201);
   
   width: fit-content;
   max-width: 100%;
@@ -188,14 +185,14 @@ body {
   margin: 20px;
   padding: 10px;
   max-width: 200px;
-  border: 2px solid #FF8C00;
-  background-color: grey;
+  border: 2px solid #042d62;
+  background-color: rgb(201, 201, 201);
 }
 
 .about button a {
   font-weight: 600;
   text-decoration: none;
-  color: #FF8C00;
+  color: #042d62;
  
 }
 
@@ -247,7 +244,7 @@ body {
 ****************************************************/
 
 .services {
-  background-color: grey;
+  background-color: rgb(201, 201, 201);
   
 }
 
@@ -264,14 +261,14 @@ body {
   margin: 20px;
   padding: 10px;
   max-width: 200px;
-  border: 2px solid #FF8C00;
-  background-color: grey;
+  border: 2px solid #042d62;
+  background-color: rgb(201, 201, 201);
 }
 
 .services button a {
   font-weight: 600;
   text-decoration: none;
-  color: #FF8C00;
+  color: #042d62;
 }
 
 .services button a:hover{
@@ -395,6 +392,7 @@ body {
 footer{
   
   position: fixed;
+  height: 75px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -505,9 +503,14 @@ footer p {
 **********************************************/
 
 @media screen and (max-width:990px) {
-  .find_us {flex-wrap: wrap;}
+  .find_us {flex-wrap: wrap; }
+  .address h2{font-size: 16px;}
+  .address h2{font-size: 16px;}
+  .sqs-block-button-element--medium {height: 42px;}
   .about p {font-size: 16px;}
   .services p {font-size: 16px;}
+  .iframe-container{width: 300px; height: 300px;}
+  
   
 }
 
