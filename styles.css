@@ -1,9 +1,12 @@
 /***********************************************
 *Body
 ************************************************/
+html, body {
+  overflow-x: hidden;
+}
 
 body {
-  overflow-x: hidden;
+ 
   margin-bottom: 75px;
   font-family: 'Cabin', sans-serif;
   
@@ -181,24 +184,32 @@ body {
   
 }
 
-.about button {
+button {
+
   margin: 20px;
   padding: 10px;
   max-width: 200px;
   border: 2px solid #042d62;
   background-color: rgb(201, 201, 201);
+  
 }
 
-.about button a {
+button a {
   font-weight: 600;
   text-decoration: none;
   color: #042d62;
+  
+}
+
+button:hover {
+ 
+  background-color: #042d62;
  
 }
 
-.about button a:hover {
-  color: #042d62;
- 
+button:hover a {
+  color: #def56c;
+  text-decoration: none;
 }
 
 /* .bg {
@@ -257,7 +268,7 @@ body {
   padding: 30px;
 }
 
-.services button {
+/* .services button {
   margin: 20px;
   padding: 10px;
   max-width: 200px;
@@ -273,7 +284,7 @@ body {
 
 .services button a:hover{
   color: #042d62;
-}
+} */
 /* animate text **/
 
 
@@ -466,9 +477,10 @@ footer p {
 
 @media screen and (max-width:990px) {
   
-  .address h2{font-size: 16px;}
-  .address h2{font-size: 16px;}
-  .sqs-block-button-element--medium {height: 42px;}
+  .address h2{font-size: 20px;}
+  .address p{font-size: 16px;}
+  .sqs-block-button-element--medium {height: 42px; font-size: 12px; padding: 5PX;}
+  
   .about p {font-size: 16px;}
   .services p {font-size: 16px;}
   .map {height: 300px; width: 200px;}
