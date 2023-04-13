@@ -566,7 +566,7 @@ form input, textarea {
 ******************************************************************/
 .hero {
   background-color: rgb(201, 201, 201);
-  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero h2 {
@@ -584,6 +584,7 @@ form input, textarea {
 .hero p {
   padding: 10px;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .career_email {
@@ -592,7 +593,7 @@ form input, textarea {
 
 .career_email a {
   color: #042d62;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .career_email a:hover {
