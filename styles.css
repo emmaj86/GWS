@@ -497,6 +497,7 @@ footer p {
   .about p {font-size: 16px;}
   .services p {font-size: 16px;}
   .map {height: 300px; width: 200px;}
+  .hero {padding-bottom: 20px;}
   
   
 }
@@ -565,7 +566,9 @@ form input, textarea {
 ******************************************************************/
 .hero {
   background-color: rgb(201, 201, 201);
+  
 }
+
 .hero h2 {
   text-align: center;
   padding: 15px;
@@ -601,4 +604,5 @@ form input, textarea {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  
 }
