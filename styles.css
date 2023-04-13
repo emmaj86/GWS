@@ -135,8 +135,8 @@ body {
 }
 
 .sqs-block-button-element--medium {
-  height: 50px;
- 
+  
+  height: auto;
   border: solid 2px #def56c;
   text-decoration: none;
   padding: 10px;
