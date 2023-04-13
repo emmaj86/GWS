@@ -31,9 +31,11 @@ body {
   
 }
 
-.navbar-toggler {
+.fas fa-bars {
   color: #def56c;
 }
+
+
 
 .navbar-nav.mr-auto.mt-2.mt-lg-0 li a {
   color: #def56c;
@@ -438,13 +440,13 @@ footer p {
 }
 
 /*************************
-* Grid - about us
+* Grid - about us page
 *************************/
 
-.item1 { grid-area: header; background-color: orange; text-decoration: black;}
-.item2 { grid-area: menu; background-color: #def56c;}
-.item3 { grid-area: main; background-color: orange;}
-.item4 { grid-area: right; background-color: orange;}
+.item1 { grid-area: header; background-color: rgb(201, 201, 201); text-decoration: black;}
+.item2 { grid-area: menu; background-color: #042d62;}
+.item3 { grid-area: main; background-color: rgb(201, 201, 201);}
+.item4 { grid-area: right; background-color: rgb(201, 201, 201);}
 
 .contact_item1 { grid-area: header; background-color: rgb(201, 201, 201); text-decoration: black;}
 .contact_item2 { grid-area: menu; background-color:rgb(201, 201, 201);}
@@ -471,6 +473,17 @@ footer p {
   background-color: #042d62;
 }
 
+.item1 h2 {
+  font-size: 50px;
+}
+.item1 h3 {
+  padding: 32px;
+}
+.item2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /*************************************************
 *media queries
 **********************************************/
@@ -480,7 +493,7 @@ footer p {
   .address h2{font-size: 20px;}
   .address p{font-size: 16px;}
   .sqs-block-button-element--medium {height: 42px; font-size: 12px; padding: 5PX;}
-  
+  .footer {padding-bottom: 5px;}
   .about p {font-size: 16px;}
   .services p {font-size: 16px;}
   .map {height: 300px; width: 200px;}
@@ -544,4 +557,47 @@ form input, textarea {
 .send:hover {
   background-color: #042d62;
   color: #def56c;
+}
+
+/********************************************************************
+* CAREERS PAGE
+******************************************************************/
+.hero {
+  background-color: rgb(201, 201, 201);
+}
+.hero h2 {
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+  color: #042d62;
+}
+
+.hero h3 {
+  text-align: center;
+  padding: 15px;
+}
+
+.hero p {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.career_email {
+  text-align: center;
+}
+
+.career_email a {
+  color: #042d62;
+  font-weight: 600;
+}
+
+.career_email a:hover {
+  color: #FF8C00;
+}
+
+.hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
