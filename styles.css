@@ -3,7 +3,7 @@
 ************************************************/
 
 body {
-  
+  overflow-x: hidden;
   margin-bottom: 75px;
   font-family: 'Cabin', sans-serif;
   
