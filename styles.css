@@ -32,15 +32,15 @@ body {
 }
 
 .navbar-nav.mr-auto.mt-2.mt-lg-0 li a {
-  color: #def56c;
+  color: #c8f705;
 }
 
 .navbar-brand {
-  color: #def56c;
+  color: #c8f705;
 }
 
 .navbar-nav.mr-auto.mt-2.mt-lg-0 button {
-  color: #def56c;
+  color: #c8f705;
 }
 
 
@@ -115,7 +115,7 @@ body {
 }
 
 .address{
-  color:#def56c; 
+  color:#c8f705; 
   padding-left: 50px;
   
 }
@@ -130,14 +130,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: large;
-  color: #def56c; 
+  color: #c8f705; 
 
 }
 
 .sqs-block-button-element--medium {
   
   height: auto;
-  border: solid 2px #def56c;
+  border: solid 2px #c8f705;
   text-decoration: none;
   padding: 10px;
   color: #def56c;
@@ -148,7 +148,7 @@ body {
 
 
 .sqs-block-button-element--medium:hover {
-  background-color: #def56c;
+  background-color: #c8f705;
   color: #042d62;
 }
 
@@ -162,6 +162,7 @@ body {
 *about section
 ***********************************************************/
 .about {
+  
   display: flex;
   flex-direction: column;
   background-color: rgb(201, 201, 201);
@@ -181,7 +182,8 @@ body {
   margin: 20px;
 }
 
-.about p{
+.about p, h3{
+  padding: 20px;
   font-size: 35px;
   margin: 20px;
   
@@ -211,9 +213,31 @@ button:hover {
 }
 
 button:hover a {
-  color: #def56c;
+  color: #c8f705;
   text-decoration: none;
 }
+
+.item1 img{
+  width: 100%;
+  border: #c8f705 5px solid;
+}
+
+.about-header{
+  background-color: #042d62;
+}
+
+.about-header h2{
+  color: #c8f705;
+  text-align: center;
+  font-size: 58px;
+  margin-bottom: 0;
+}
+
+.item3{
+  background-color: #fff;
+}
+
+
 
 /* .bg {
   
@@ -299,7 +323,7 @@ button:hover a {
     #042d62 0%,
     #043d60 29%,
     rgb(255, 123, 0) 67%,
-    #def56c 100%
+    #c8f705 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -377,7 +401,7 @@ footer{
 }
 
 footer p {
-  color: #def56c;
+  color: #c8f705;
   
 }
 
@@ -405,206 +429,37 @@ footer p {
 .fa-facebook {
   background-color: #042d62;
   
-  color: #def56c;
+  color: #c8f705;
 }
 
 /* Instagram */
 .fa-instagram {
-  color: #def56c;
+  color: #c8f705;
 }
 
 /* linkedin */
 .fa-linkedin {
-  color: #def56c;
+  color: #c8f705;
 }
 
 /* Twitter */
 .fa-twitter {
   background-color: #042d62;
   
-  color: #def56c;
+  color: #c8f705;
 }
 
 /*you tube */
 .fa-youtube {
-  color: #def56c;
+  color: #c8f705;
 }
 
 /* email */
 .fa-envelope {
-  color: #def56c;
+  color: #c8f705;
 }
 
 /* phone */
 .fa-phone {
-  color: #def56c;
-}
-
-/*************************
-* Grid - about us page
-*************************/
-
-.item1 { grid-area: header; background-color: rgb(201, 201, 201); text-decoration: black;}
-.item2 { grid-area: menu; background-color: #042d62;}
-.item3 { grid-area: main; background-color: rgb(201, 201, 201);}
-.item4 { grid-area: right; background-color: rgb(201, 201, 201);}
-
-.contact_item1 { grid-area: header; background-color: rgb(201, 201, 201); text-decoration: black;}
-.contact_item2 { grid-area: menu; background-color:rgb(201, 201, 201);}
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu menu menu menu menu menu'
-    'main main main right right right';
-  gap: 10px;
-  background-color: #042d62;
-  padding: 10px;
-}
-
-.grid-container > div {
-  
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
-.grid-container header {
-  background-color: #042d62;
-}
-
-.item1 h2 {
-  font-size: 50px;
-}
-.item1 h3 {
-  padding: 32px;
-}
-.item2 img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-/*************************************************
-*media queries
-**********************************************/
-
-@media screen and (max-width:480px) {
-  
-  .address h2{font-size: 20px;}
-  .address p{font-size: 16px;}
-  .sqs-block-button-element--medium {height: 42px; font-size: 12px; padding: 5PX;}
-  .footer {padding-bottom: 5px;}
-  .about p {font-size: 16px;}
-  .services p {font-size: 16px;}
-  .map {height: 300px; width: 200px;}
-  .hero {padding-bottom: 20px;}
-  
-  
-}
-
-
-/***********************************************************
-*CONTACT US PAGE
-**********************************************************/
-
-.contact_form {
- 
-  
-  background-color: rgb(201, 201, 201);
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  padding-bottom: 10px;
-  text-align: center;
-  
-}
-
-.contact_form h2 {
- 
-  padding-top: 20px;
-  color: #FF8C00;
-  text-align: center;
-}
-
-.contact_form p{
-   
-  color: black;
-  padding: 15px;
-  font-weight: 600;
-  
-}
-
-.contact {
-  color: #FF8C00;
-}
-
-form input, textarea {
-  box-sizing: border-box;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 1rem;
-  
-  border: 4px solid #042d62;
-  
-}
-
-.send {
-  border: 4px solid #042d62;
-  border-radius: 8px;
-  color: #042d62;
-  font-size: 24px;
-  background-color: rgb(201, 201, 201);
-}
-
-.send:hover {
-  background-color: #042d62;
-  color: #def56c;
-}
-
-/********************************************************************
-* CAREERS PAGE
-******************************************************************/
-.hero {
-  background-color: rgb(201, 201, 201);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero h2 {
-  text-align: center;
-  padding: 15px;
-  text-decoration: underline;
-  color: #042d62;
-}
-
-.hero h3 {
-  text-align: center;
-  padding: 15px;
-}
-
-.hero p {
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.career_email {
-  text-align: center;
-}
-
-.career_email a {
-  color: #042d62;
-  font-weight: 700;
-}
-
-.career_email a:hover {
-  color: #FF8C00;
-}
-
-.hero img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
+  color: #c8f705;
 }

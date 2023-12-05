@@ -1,0 +1,72 @@
+/***********************************************************
+*CONTACT US PAGE
+**********************************************************/
+body{
+    background-image: url(/assets/scotland.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.contact_header{
+    padding-bottom: 40px;
+}
+.contact_header h2 {
+   
+    padding-top: 60px;
+    font-size: 48px;
+    color: #042d62;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+
+  
+  .contact_header p{
+    text-align: center;
+    color: #042d62;
+    font-weight: 600;
+    
+  }
+
+
+
+
+.contact_form {
+
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-align: center;
+    
+  }
+  
+ 
+  
+
+  
+  form input, textarea {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 1rem;
+    
+    border: 2px solid #042d62;
+    
+  }
+  
+  .send {
+    border: 2px solid #042d62;
+    border-radius: 8px;
+    color: #def56c;
+    font-size: 24px;
+    background-color:#042d62;
+  }
+  
+  .send:hover {
+    color: #042d62;
+    background-color: #def56c;
+  }
+  

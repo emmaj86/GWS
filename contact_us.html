@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
   <!--Navbar-->
@@ -45,12 +46,13 @@
       </div>
     </nav>
 <!-- <section class="contact"> -->
-  <section class="contact_form"> 
-    <h2> Contact Us </h2>
-    <p>Contact us for residential or commercial enquiries</p>
-    <p>Call us on <a class="contact" href="tel:01560327444">01560327444</a> </p>
-    <p>Email us at <a class="contact" href="mailto:info@groundworksscotland.com">info@groundworksscotland.com</a> </p>
-   
+  <section class="contact_header"> 
+ 
+    <h2> Get in touch </h2>
+    <p>	&#9990; <a class="contact" href="tel:01560327444">01560327444</a> </p>
+    <p>&#9993; <a class="contact" href="mailto:info@groundworksscotland.com">info@groundworksscotland.com</a> </p>
+  </section>
+  <section class="contact_form">
     <form action="https://formsubmit.co/emma.cody@hotmail.co.uk" method="POST">
       
       <input type="text" name="name" placeholder="Name" required> <br>
@@ -59,10 +61,13 @@
      <input type="email" name="email" placeholder="Email" required> <br>
      
      <input type="phone" name="phone" placeholder="Phone number" required> <br>
-      <p><label for="message">Your message:</label></p>
-      <textarea id="message" name="message" rows="4" cols="50"  required> </textarea> <br>
+     
+      <textarea placeholder="Enter your message" id="message" name="message"  rows="4" cols="50"  required></textarea> 
+      <br>
      <button class="send" type="submit">Send</button>
 </form>
+</section>
+
 </section>
 
 <footer>

@@ -1,0 +1,45 @@
+#about{
+    background-color:#c8f705;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-hero{
+    background-color: #042d62;
+}
+
+#about-hero img{
+    width: calc(100% - 40px);
+    margin: 20px;
+   
+    border: #c8f705 3px solid;
+}
+
+#about-info{
+    padding: 0;
+    background-color: #c8f705;
+    
+}
+
+#about-info p{
+    margin: 20px;
+    padding: 20px;
+    font-size: large;
+    border:3px solid #042d62
+}
+
+#directors{
+    
+    background-color: #042d62;
+    
+}
+
+#directors img{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #c8f705;
+    width: calc(100% - 40px);
+    
+}
