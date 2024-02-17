@@ -3,6 +3,11 @@ body {
     font-family: 'Trebuchet MS'; 
     
 } 
+
+a{
+    text-decoration: none;
+    color: #62adff;
+}
   
   
 h2 { 
@@ -112,7 +117,7 @@ color: #c8f705;}
     .services {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        padding: 20px;
+        /* padding: 20px; */
      }
      .services img{
         max-width: 100%;
