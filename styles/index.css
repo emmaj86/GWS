@@ -56,26 +56,27 @@ button {
     margin: 20px;
     padding: 10px;
     max-width: 200px;
-    border: 2px solid #a9a9a9;
-    background-color: #c8f705;
+    border: 2px solid #c8f705;
+    background-color: #042d62;
     
   }
   
   button a {
     font-weight: 600;
     text-decoration: none;
-    color: #042d62;
+    color: #c8f705;
     
   }
   
   button:hover {
    
-    background-color: #042d62;
+    border: 3px solid #ff8e62;
    
   }
   
   button:hover a {
-    color: #c8f705;
+    color: #ff8e62;
+    
     text-decoration: none;
   }
 
@@ -120,23 +121,9 @@ button {
   
   }
   
-  .sqs-block-button-element--medium {
-    
-    height: auto;
-    border: solid 2px #c8f705;
-    text-decoration: none;
-    padding: 10px;
-    color: #def56c;
-    
-    
-    
-  }
-  
-  
-  .sqs-block-button-element--medium:hover {
-    background-color: #c8f705;
-    color: #042d62;
-  }
+ .find_us button{
+    margin: 0;
+ }
   
   .map {
     /* display: block; */
