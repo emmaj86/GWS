@@ -1,6 +1,7 @@
 body { 
-    background-color:  #c8f705; 
+    background-color:  #042d62; 
     font-family: 'Trebuchet MS'; 
+    
 } 
   
   
@@ -9,11 +10,16 @@ h2 {
     margin-top: 20px; 
 } 
 
+p{
+    color: #a9a9a9;
+    font-size: 18px;
+}
+
 /*hero*/
 
 .hero{
     background-color: #042d62;
-    padding: 20px;
+    padding: 40px;
 }
 
 .hero h2{
@@ -23,8 +29,39 @@ h2 {
     color: #c8f705;
 }
 
-.hero p{
-    color: #a9a9a9;
+
+
+
+
+/*services*/
+
+.services{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #042d62;
+    margin: 20px;
+}
+
+.col{
+    
+    background-color: #042d62;
+   
+}
+
+.col img{
+    margin-left: 20px;
+}
+
+.col h2{
+    justify-content: center;
+    margin: 0;
+    padding: 20px ;
+    font-size: 36px;
+    color: #62adff;
+}
+
+.col p{
+    font-size: 18px;
 }
 
 /*calculator*/
@@ -68,3 +105,9 @@ input {
 background-color:#042d62 ;
 color: #c8f705;}
 
+@media screen and (max-width: 900px) {
+    .services {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+     }
+    }
