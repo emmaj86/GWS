@@ -110,4 +110,7 @@ color: #c8f705;}
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
      }
+     .services img{
+        max-width: 100%;
+     }
     }

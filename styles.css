@@ -239,45 +239,8 @@ button:hover a {
 
 
 
-/* .bg {
-  
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg,  #042d62 50%, #FF8C00 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position: fixed; 
-  height: 100%;
-  
 
-  right:-50%;
-  top: 0;
-  z-index:-1;
- 
-  
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-}
-
-
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-} */
-
-/*****************************************************
+****************************************************
 * services
 ****************************************************/
 
@@ -312,7 +275,7 @@ button:hover a {
 .services button a:hover{
   color: #042d62;
 } */
-/* animate text **/
+/* animate text *
 
 
 .animate-charcter
