@@ -8,18 +8,41 @@ h2 {
     font-size: 21px; 
     margin-top: 20px; 
 } 
+
+/*hero*/
+
+.hero{
+    background-color: #042d62;
+    padding: 20px;
+}
+
+.hero h2{
+    margin: 0;
+    padding-bottom: 20px ;
+    font-size: 36px;
+    color: #c8f705;
+}
+
+.hero p{
+    color: #a9a9a9;
+}
+
+/*calculator*/
   
-.calculator { 
-    width: 400px; 
-    height: 450px; 
+.finance-calculator { 
+    /* max-width: 400px; 
+    max-height: 450px;  */
     border: solid 3px #042d62;
     background-color: #c8f705; 
-    position: absolute; 
+ 
     left: 50%; 
-    top: 50%; 
-    transform: translateX(-50%) translateY(-50%); 
+    
+    
+    /* transform: translateX(-50%) translateY(-50%);  */
     padding: 20px 0px 0px 100px; 
+    margin: 40px 100px 40px 100px;
     border-radius: 50px; 
+    
     color: #042d62; 
 } 
   
@@ -44,3 +67,4 @@ input {
 .calculatebtn:hover{
 background-color:#042d62 ;
 color: #c8f705;}
+
