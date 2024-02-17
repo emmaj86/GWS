@@ -102,61 +102,6 @@ body {
   
 }
 
-/***********************************************************
-* find us section
-***********************************************************/
-.find_us {
-  
-  background-color: #042d62;
-  display: flex;
-  
-  padding: 50px;
- 
-}
-
-.address{
-  color:#c8f705; 
-  padding-left: 50px;
-  
-}
-
-.address h2{
-  font-size: xx-large;
-  justify-content: center;
- 
-}
-
-.address p {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: large;
-  color: #c8f705; 
-
-}
-
-.sqs-block-button-element--medium {
-  
-  height: auto;
-  border: solid 2px #c8f705;
-  text-decoration: none;
-  padding: 10px;
-  color: #def56c;
-  
-  
-  
-}
-
-
-.sqs-block-button-element--medium:hover {
-  background-color: #c8f705;
-  color: #042d62;
-}
-
-.map {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 /***********************************************************
 *about section
@@ -189,33 +134,7 @@ body {
   
 }
 
-button {
 
-  margin: 20px;
-  padding: 10px;
-  max-width: 200px;
-  border: 2px solid #042d62;
-  background-color: rgb(201, 201, 201);
-  
-}
-
-button a {
-  font-weight: 600;
-  text-decoration: none;
-  color: #042d62;
-  
-}
-
-button:hover {
- 
-  background-color: #042d62;
- 
-}
-
-button:hover a {
-  color: #c8f705;
-  text-decoration: none;
-}
 
 .item1 img{
   width: 100%;
@@ -240,23 +159,7 @@ button:hover a {
 
 
 
-****************************************************
-* services
-****************************************************/
 
-.services {
-  background-color: rgb(201, 201, 201);
-  
-}
-
-.services h3 {
-  text-align: center;
-}
-
-.services p {
-  font-size: 32px;
-  padding: 30px;
-}
 
 /* .services button {
   margin: 20px;
