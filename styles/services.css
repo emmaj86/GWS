@@ -53,7 +53,7 @@ p{
 }
 
 .col h2{
-    justify-content: center;
+    text-align: center;
     margin: 0;
     padding: 20px ;
     font-size: 36px;
@@ -90,8 +90,9 @@ input {
     border: solid 2px #042d62;
 } 
 
-.form-input p{   
+.form-input {   
     color: #042d62;
+    padding: 10px;
 }
 
 .calculatebtn{
@@ -113,5 +114,9 @@ color: #c8f705;}
      }
      .services img{
         max-width: 100%;
+     }
+     .finance-calculator{
+        padding: auto;
+        margin: auto;
      }
     }
