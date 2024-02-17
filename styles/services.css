@@ -123,7 +123,6 @@ color: #c8f705;}
         max-width: 100%;
      }
      .finance-calculator{
-        padding: auto;
-        margin: auto;
+        margin: 0px 0px 60px 0px;
      }
     }
