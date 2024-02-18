@@ -65,7 +65,8 @@ body{
   
   #career-header img{
   width: 100%;
-  height: fit-content
+  height: auto;
+  max-height: 50vh;
   }
   
   .top{

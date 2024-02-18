@@ -2,11 +2,7 @@
 *CONTACT US PAGE
 **********************************************************/
 body{
-    /* background-image: url(/assets/scotland.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-     */
+
      background-color: #042d62;
 }
 h2{
@@ -19,11 +15,16 @@ h2{
 .contact_main {
    border: #def56c 3px solid;
     padding-top: 60px;
-    font-size: 48px;
+    font-size: auto;
     color: #042d62;
     text-align: center;
     padding-bottom: 10px;
     margin: 40px;
+    width: 90;
+  }
+
+  .contact_main a, p{
+    color: #def56c;
   }
 
 
@@ -59,11 +60,12 @@ h2{
     border-radius: 1rem;
     
     border: 2px solid #042d62;
+    width: 90%;
     
   }
   
   .send {
-    border: 2px solid #042d62;
+    border: 2px solid #def56c;
     border-radius: 8px;
     color: #def56c;
     font-size: 24px;
@@ -74,4 +76,5 @@ h2{
     color: #042d62;
     background-color: #def56c;
   }
+  
   
