@@ -7,13 +7,13 @@ body{
 }
 h2{
   text-align: center;
-  color: #def56c;
+  color: #c8f705;
 }
 .contact_header{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .contact_main {
-   border: #def56c 3px solid;
+   border: #c8f705 3px solid;
     padding-top: 60px;
     font-size: auto;
     color: #042d62;
@@ -24,7 +24,7 @@ h2{
   }
 
   .contact_main a, p{
-    color: #def56c;
+    color: #c8f705;
   }
 
 
@@ -65,16 +65,16 @@ h2{
   }
   
   .send {
-    border: 2px solid #def56c;
+    border: 2px solid #c8f705;
     border-radius: 8px;
-    color: #def56c;
+    color: #c8f705;
     font-size: 24px;
     background-color:#042d62;
   }
   
   .send:hover {
     color: #042d62;
-    background-color: #def56c;
+    background-color: #c8f705;
   }
   
   

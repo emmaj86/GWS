@@ -1,0 +1,86 @@
+body{
+    background-color: #042d62;
+}
+
+/*header*/
+
+h2{
+    text-align: center;
+    color: #c8f705;
+}
+
+/*************************************************************************
+*projects section
+*************************************************************************/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #042d62;
+    color: #c8f705;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 10px;
+    border: 3px solid #c8f705;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #042d62;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #042d62;
+    color: #c8f705;
+  }
+
+  .content h3{
+    margin: 10px;
+    padding: 0;
+  }
+
+  .content p{
+    color: #a9a9a9;
+    width: 90%;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #042d62;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  /***********************
+  *slideshow
+  ************************/
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    position: relative;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
