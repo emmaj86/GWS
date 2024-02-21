@@ -79,11 +79,19 @@ h2{
   .carousel-item img{
     width: 100% !important;
   height: 75vh;
+
+
   }
 
   /* Now see what happens when the device or screen is less that 601px */
 
-  
+  @media (max-width: 320px){
+    .carousel-item img{
+    width: auto;
+    height:auto;
+    
+    }
+  }
   
 
   @media (max-width: 480px){

@@ -54,6 +54,6 @@ for (i = 0; i < coll.length; i++) {
 //   dots[slideIndex - 1].className += " active";
 // }
 
-// $(".carousel").carousel({
-//   interval: 2000,
-// });
+$(".carousel").carousel({
+  interval: 2000,
+});
