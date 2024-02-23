@@ -18,6 +18,7 @@ h2 {
 p{
     color: #a9a9a9;
     font-size: 18px;
+    font-weight: 500;
 }
 
 /*hero*/
@@ -27,11 +28,12 @@ p{
     padding: 40px;
 }
 
-.hero h2{
+.hero h1{
     margin: 0;
     padding-bottom: 20px ;
     font-size: 36px;
     color: #c8f705;
+    text-align: center;
 }
 
 
