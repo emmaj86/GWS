@@ -14,7 +14,7 @@ function Calculate() {
 
   // Extracting value in the interest
   // rate section in the variable
-  const rate = 12;
+  const rate = 14;
 
   // Extracting value in the months
   // section in the variable
