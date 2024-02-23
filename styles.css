@@ -338,6 +338,10 @@ p{
   
 }
 
+#about-info p{
+  color: #042d62;
+}
+
 #about-info {
   margin: 20px;
   padding: 20px;
