@@ -54,6 +54,20 @@ for (i = 0; i < coll.length; i++) {
 //   dots[slideIndex - 1].className += " active";
 // }
 
-$(".carousel").carousel({
-  interval: 2000,
+// $(".carousel").carousel({
+//   interval: 2000,
+// });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
 });
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
