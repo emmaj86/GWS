@@ -150,6 +150,7 @@ button:hover a {
   display: grid;   
   grid-template-columns: 50% 50%; 
   padding-bottom: 20px;
+  place-items: center;
   
  
 }
@@ -157,6 +158,7 @@ button:hover a {
 .address{
   color:#c8f705; 
   padding-left: 50px;
+
   
 }
 
@@ -176,7 +178,11 @@ button:hover a {
 
 .find_us button{
   margin: 0;
+
+ 
 }
+
+
 
 .map {
 
