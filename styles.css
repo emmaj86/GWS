@@ -402,18 +402,18 @@ p{
   /**********************************************************
   *services
   **********************************************************/
-  a{
+.hero-services a{
     text-decoration: none;
     color: #62adff;
 }
   
   
-h2 { 
+.hero-services h2 { 
     font-size: 21px; 
     margin-top: 20px; 
 } 
 
-p{
+.hero-services p{
     color: #a9a9a9;
     font-size: 18px;
     font-weight: 500;
@@ -448,8 +448,12 @@ p{
     background-color: #042d62;
     margin-right: 20px;
     text-align: center;
+    margin: 40px;
+    
     
 }
+
+
 
 .col{
     
@@ -472,6 +476,7 @@ p{
 
 .col p{
     font-size: 18px;
+    color: #a9a9a9;
 }
 
 /*calculator*/
