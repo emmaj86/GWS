@@ -29,3 +29,5 @@ function Calculate() {
   document.querySelector("#total").innerHTML =
     "Estimated monthly payment £" + total;
 }
+
+$(".carousel").carousel();

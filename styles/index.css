@@ -1,5 +1,6 @@
 body{
     background-color: #042d62;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
@@ -126,10 +127,22 @@ button {
   }
   
 
+.reviews img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
+/* /********************************************
+*media queries
+**********************************************/
 
-
-/*media queries*/
+/* @media (min-width: 768px){
+  .reviews{
+   padding: 2rem;
+   height: auto;
+  }
+} */ */
 
 
