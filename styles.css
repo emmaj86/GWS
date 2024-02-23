@@ -421,12 +421,14 @@ p{
 
 /*hero*/
 
-.hero{
+.hero-services{
     background-color: #042d62;
     padding: 40px;
+    border: solid 3px #c8f705;
+    margin: 40px;
 }
 
-.hero h1{
+.hero-services h1{
     margin: 0;
     padding-bottom: 20px ;
     font-size: 36px;
@@ -446,6 +448,7 @@ p{
     background-color: #042d62;
     margin-right: 20px;
     text-align: center;
+    
 }
 
 .col{
